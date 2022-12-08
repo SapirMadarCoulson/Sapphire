@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SAPPHIRE Moroccan Restaurant</title>
+    <link rel="stylesheet" href="Home.css" />
+    <link rel="stylesheet" href="nevbar.css" />
+  </head>
+
+  <body>
+    <ul>
+      <li><a href="/Sapphire/Home.html">HOME</a></li>
+      <li><a href="/Sapphire/menu.html">MENU</a></li>
+      <li><a href="/Sapphire/Contact.html">CONTACT</a></li>
+      <li style="float: right">
+        <a class="active" href="/Sapphire/About.html">ABOUT</a>
+      </li>
+    </ul>
+
+    <header class="my-header">
+      <h1>Moroccan Restaurant</h1>
+      <h2>Sapphire</h2>
+    </header>
+    <video
+      autoplay
+      muted
+      loop
+      id="background-video"
+      src="/images/ camel .mp4"
+    ></video>
+
+    <script>
+      var video = document.getElementById("background-video");
+      function setPlaySpeed() {
+        video.playbackRate = 1;
+      }
+      setPlaySpeed();
+    </script>
+  </body>
+</html>

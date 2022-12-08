@@ -1,0 +1,49 @@
+
+    *{padding: 0;margin: 0;}
+    header {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      margin: 0;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      font-size: 30px;
+      text-shadow: 1px 1px 1px #ababab;
+      box-sizing: border-box;
+    }
+
+    video {
+      width: 100vw;
+      height: 100vh;
+      object-fit: cover;
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      z-index: -1;
+    }
+
+    h1 {
+      /* moroccan restaurant */
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+      color: rgb(240, 215, 185);
+      text-transform: uppercase;
+      letter-spacing: 30px;
+      font-size: 20px;
+      text-align: center;
+    }
+
+    h2 {
+      /* sapphire */
+
+      font-family: "syncopate", serif;
+      display: block;
+      font-size: 80px;
+      letter-spacing: 64px;
+      color: #d8e8df;
+      text-transform: uppercase;
+      text-align: center;
+    }

@@ -1,0 +1,52 @@
+
+    video {
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        z-index: -1;
+
+    }
+    
+    p.headline {
+      /* moroccan restaurant */
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      color: rgb(125, 135, 126);
+      text-transform: uppercase;
+      letter-spacing: 20px;
+      font-size: 15px;
+      text-align: center;
+
+    }
+    p.headline1 {
+            /* MENU */
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        display: block;
+        font-size: 80px;
+        letter-spacing: 64px; 
+        color: #d8e8df;
+        text-transform: uppercase;
+        text-align: center;
+    
+      }
+      p.headline1 span {
+        letter-spacing: normal;
+
+      }
+
+    p.underheadline {
+      /* ITEMS */
+      font-family:'Noto Serif', serif;
+      display: block;
+      font-size: 40px;
+      letter-spacing: 24px;
+      color: #d8e8df;
+      text-transform: uppercase;
+      text-align: center;
+      
+    }
+
+ 
+    
